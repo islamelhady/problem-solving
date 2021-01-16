@@ -1,0 +1,18 @@
+// Created by islam elhady on 20/01/2018.
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+       
+ double R,A;
+        Scanner sc = new Scanner(System.in);
+        R = sc.nextDouble();
+        A = 3.14159 * R * R;
+        System.out.printf("A=%.4f\n", A);
+    }
+ 
+}
